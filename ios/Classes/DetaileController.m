@@ -21,6 +21,7 @@
     [btn setTitle:@"跳转到flutter页面" forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(backAction) forControlEvents:UIControlEventTouchUpInside];
+    self.view.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view.
 }
 
